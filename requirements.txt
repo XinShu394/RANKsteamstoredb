@@ -1,0 +1,13 @@
+# Steam爬虫依赖清单
+# 版本: V0.2.0 (使用DrissionPage)
+# 更新日期: 2026-01-06
+
+# ⚠️ 核心依赖 - 处理JavaScript渲染
+DrissionPage>=4.0.0
+
+# 数据处理
+pandas>=2.0.0
+
+# 备选方案（如果DrissionPage有问题）
+# playwright>=1.40.0
+# selenium>=4.0.0
